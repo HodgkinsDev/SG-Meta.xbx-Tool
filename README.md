@@ -27,4 +27,8 @@ If you don't add any arguments, you'll be able to use the CLI menu and create/re
 files without using command arguments.
 ```
 ## Disclaimer
-This was written on Linux Mint, however the code itself is compatible with Windows. You'll just have to change the clearscreen in line 20 (system("clear");) to the equivalent windows system command for clearing the console screen and compile it yourself.
+This was written on Linux Mint, however the code itself is compatible with Windows. You'll just have to change the clearscreen in line 20 to the equivalent windows system command for clearing the console screen and compile it yourself.
+
+```
+Line 20    system("clear)"; ------> system("cls");
+```
