@@ -30,5 +30,5 @@ files without using command arguments.
 This was written on Linux Mint, however the code itself is compatible with Windows. You'll just have to change the clearscreen in line 20 of the main.cpp file to the equivalent windows system command for clearing the console screen and compile it yourself.
 
 ```
-Line 20 main.cpp:    system("clear)"; ------> system("cls");
+Line 20 main.cpp:system("clear)"; ------> system("cls");
 ```
